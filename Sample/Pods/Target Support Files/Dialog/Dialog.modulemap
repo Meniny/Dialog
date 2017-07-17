@@ -1,0 +1,6 @@
+framework module Dialog {
+  umbrella header "Dialog-umbrella.h"
+
+  export *
+  module * { export * }
+}

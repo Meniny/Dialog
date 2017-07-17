@@ -1,0 +1,16 @@
+PODS:
+  - Dialog (1.0.0)
+
+DEPENDENCIES:
+  - Dialog (from `../`)
+
+EXTERNAL SOURCES:
+  Dialog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Dialog: 155de0c7a0abe9367ef25cb7d7f431812dad261a
+
+PODFILE CHECKSUM: d013f0e5e77b9a4fee5d304befc6c8591e22a8ef
+
+COCOAPODS: 1.2.1
