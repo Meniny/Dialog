@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./Dialog.png" alt="Dialog">
+  <img src="./Assets/Dialog.png" alt="Dialog">
   <br/><a href="https://cocoapods.org/pods/Dialog">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-brightgreen.svg">
   <img alt="Author" src="https://img.shields.io/badge/author-Meniny-blue.svg">
@@ -16,8 +16,6 @@
   </a>
 </p>
 
-# Introduction
-
 ## What's this?
 
 `Dialog` is a delightful dialog view for iOS written in Swift.
@@ -26,6 +24,12 @@
 
 * iOS 9.0+
 * Xcode 8 with Swift 3
+
+## Preview
+
+![Dialog](./Assets/ScreenShot-Dialog.png)
+
+![Loading](./Assets/ScreenShot-Loading.png)
 
 ## Installation
 

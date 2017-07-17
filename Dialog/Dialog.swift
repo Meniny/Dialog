@@ -1033,6 +1033,7 @@ public extension Dialog {
                               image: UIImage? =  nil) -> Dialog {
         let dialog = Dialog(title: title, message: message, image: image)
         dialog.dismissWithOutsideTouch = false
+        dialog.allowDragGesture = false
         let indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
         dialog.loadingIndicator = indicator
         dialog.container.addSubview(dialog.loadingIndicator!)
