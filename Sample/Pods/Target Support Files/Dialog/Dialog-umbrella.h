@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Dialog.h"
 
 FOUNDATION_EXPORT double DialogVersionNumber;
 FOUNDATION_EXPORT const unsigned char DialogVersionString[];

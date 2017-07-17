@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10BF9CBB9B15FF00740F0FF6C33FBB7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		47B44F29081E47E73EDD40A3CCB1AAF9 /* Pods-Sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 630DD76D417453483F37DBAE838D5518 /* Pods-Sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BD194DECC6E769055006897E4C6AF77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		81F1BC3C1B310383A00A80F5968917F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		B2934A402B04CB0B0DFF74AE3912CF3A /* Dialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B918A24A818D8E6772A7D39071FBCD /* Dialog-dummy.m */; };
-		B78F24EAAAECE45C1E690A341658AAA3 /* Dialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9635F7601200A4AA372BD78D733825 /* Dialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5938D2B0412D9C03F45DC9E063A5216D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A0E1A18AEA0F333154E4071CA8D3C19E /* Dialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59900F3065FDF05C52E6A6C6415C23A9 /* Dialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D58958E1C8C18552C72FDFCD6B38D3DE /* Pods-Sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF50723EE695E440CDA214119EF2C70 /* Pods-Sample-dummy.m */; };
+		DDEDFE1B2C85B61239207D19CB3E1DEE /* Dialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 832318F650A59C9FF34A00EFB9D9D5A5 /* Dialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8E92E3E07D785C2C438A5554D74D35E /* Dialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5D16013280D27EEC32B58B67409BF4 /* Dialog-dummy.m */; };
 		ECDDC2B16DDDFA1EAD89034793E059D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		ED9C064923840ABF9E8B2286AAD07AC8 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FCD325564D42BE3124DF4A2422131 /* Dialog.swift */; };
+		F10AE572873DC82569E99D69F118AD68 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D95B2A41FB944D6A867EB06940688E9 /* Dialog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,43 +23,44 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 79F36F89B5B0C9313D524D56D9B9C0A1;
+			remoteGlobalIDString = 76FFD30195B745E21DE4E645636AC54F;
 			remoteInfo = Dialog;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		161FD1626938094EEC6BF57530EDB6DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B7FCD325564D42BE3124DF4A2422131 /* Dialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
-		1F9635F7601200A4AA372BD78D733825 /* Dialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dialog-umbrella.h"; sourceTree = "<group>"; };
 		2FDF78216A41DB691C5960FEE69EB9FD /* Pods-Sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-resources.sh"; sourceTree = "<group>"; };
+		3A5D16013280D27EEC32B58B67409BF4 /* Dialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dialog-dummy.m"; sourceTree = "<group>"; };
 		3AE375A74D27FC41E7BB6C006DFC76A6 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		4AF50723EE695E440CDA214119EF2C70 /* Pods-Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sample-dummy.m"; sourceTree = "<group>"; };
+		588986D105BBC709DE7DFE8E18975AE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59900F3065FDF05C52E6A6C6415C23A9 /* Dialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dialog-umbrella.h"; sourceTree = "<group>"; };
+		5AD28EC2158743EF0EE9F38F6C58C904 /* Dialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dialog.xcconfig; sourceTree = "<group>"; };
 		630DD76D417453483F37DBAE838D5518 /* Pods-Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sample-umbrella.h"; sourceTree = "<group>"; };
-		6848F99866268426BE8E5EBA073852DD /* Dialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dialog.xcconfig; sourceTree = "<group>"; };
 		6D65DC53E876D33B73CCFEE44C379EE1 /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
-		6F39B5DC69163578D53801B3C31DC8F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		735E5204C40E887244F2B75BCCDF2572 /* Pods-Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Sample.modulemap"; sourceTree = "<group>"; };
-		74B918A24A818D8E6772A7D39071FBCD /* Dialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dialog-dummy.m"; sourceTree = "<group>"; };
-		7B4E67724001B63CE9B31A74ABB1497D /* Dialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dialog-prefix.pch"; sourceTree = "<group>"; };
 		7D31C330F803F77A5D092A7234832549 /* Dialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Dialog.framework; path = Dialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		832318F650A59C9FF34A00EFB9D9D5A5 /* Dialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Dialog.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C896AB03AD02637A2108FF27D207683 /* Pods-Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-frameworks.sh"; sourceTree = "<group>"; };
+		9D95B2A41FB944D6A867EB06940688E9 /* Dialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
 		A21D9B3C2775E7C503E601A5737980FB /* Pods-Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A4F67C9E66E8D9E97F11042B162517EB /* Pods-Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sample-acknowledgements.plist"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D31813CAF08D5AA69228764B65B42198 /* Dialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Dialog.modulemap; sourceTree = "<group>"; };
+		D4400B2610E10D088A800451995C5320 /* Dialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Dialog.modulemap; sourceTree = "<group>"; };
 		D838DDD9CE76DF5FAD5144694F65F243 /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sample.framework; path = "Pods-Sample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DFBA25C62A1FA2FE83580B1E15B4B2D9 /* Dialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dialog-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C6363A953519D897FCE0A680FEFDF449 /* Frameworks */ = {
+		1F5E798186E66F69587090238901E16B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81F1BC3C1B310383A00A80F5968917F6 /* Foundation.framework in Frameworks */,
-				4BD194DECC6E769055006897E4C6AF77 /* UIKit.framework in Frameworks */,
+				5938D2B0412D9C03F45DC9E063A5216D /* Foundation.framework in Frameworks */,
+				10BF9CBB9B15FF00740F0FF6C33FBB7B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,11 +75,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AE8074ECCA926345F3907DE4C2B5E0C /* Dialog */ = {
+		2C6050B08EE7275A9AF987608448CC21 /* Dialog */ = {
 			isa = PBXGroup;
 			children = (
-				BF88DB1320EB57838E39101669558D40 /* Dialog */,
-				919CBB7CA77E8CE2CD963C18D728E0F1 /* Support Files */,
+				D0CD159E8FDC78FE53FF3EEB73D044E1 /* Dialog */,
+				78922A804C7A22FD565CFCCE37EF965A /* Support Files */,
 			);
 			name = Dialog;
 			path = ../..;
@@ -100,6 +102,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		78922A804C7A22FD565CFCCE37EF965A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4400B2610E10D088A800451995C5320 /* Dialog.modulemap */,
+				5AD28EC2158743EF0EE9F38F6C58C904 /* Dialog.xcconfig */,
+				3A5D16013280D27EEC32B58B67409BF4 /* Dialog-dummy.m */,
+				DFBA25C62A1FA2FE83580B1E15B4B2D9 /* Dialog-prefix.pch */,
+				59900F3065FDF05C52E6A6C6415C23A9 /* Dialog-umbrella.h */,
+				588986D105BBC709DE7DFE8E18975AE8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Sample/Pods/Target Support Files/Dialog";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -109,20 +125,6 @@
 				B45BDAC8568F094D0BDCD7EFFB1DD2C9 /* Products */,
 				A8614ADDDA2C845A05B4D5D16AB12C48 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		919CBB7CA77E8CE2CD963C18D728E0F1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D31813CAF08D5AA69228764B65B42198 /* Dialog.modulemap */,
-				6848F99866268426BE8E5EBA073852DD /* Dialog.xcconfig */,
-				74B918A24A818D8E6772A7D39071FBCD /* Dialog-dummy.m */,
-				7B4E67724001B63CE9B31A74ABB1497D /* Dialog-prefix.pch */,
-				1F9635F7601200A4AA372BD78D733825 /* Dialog-umbrella.h */,
-				6F39B5DC69163578D53801B3C31DC8F7 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Sample/Pods/Target Support Files/Dialog";
 			sourceTree = "<group>";
 		};
 		A8614ADDDA2C845A05B4D5D16AB12C48 /* Targets Support Files */ = {
@@ -160,10 +162,11 @@
 			path = "Target Support Files/Pods-Sample";
 			sourceTree = "<group>";
 		};
-		BF88DB1320EB57838E39101669558D40 /* Dialog */ = {
+		D0CD159E8FDC78FE53FF3EEB73D044E1 /* Dialog */ = {
 			isa = PBXGroup;
 			children = (
-				1B7FCD325564D42BE3124DF4A2422131 /* Dialog.swift */,
+				832318F650A59C9FF34A00EFB9D9D5A5 /* Dialog.h */,
+				9D95B2A41FB944D6A867EB06940688E9 /* Dialog.swift */,
 			);
 			name = Dialog;
 			path = Dialog;
@@ -172,7 +175,7 @@
 		D4A015630EE0261A1F80BA462C0A8ABA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0AE8074ECCA926345F3907DE4C2B5E0C /* Dialog */,
+				2C6050B08EE7275A9AF987608448CC21 /* Dialog */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -180,19 +183,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8AB72AC268BD64BC016EC9A7624DF437 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B78F24EAAAECE45C1E690A341658AAA3 /* Dialog-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C51768E8278E9D5C2BEE249AFCDE1CF3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				47B44F29081E47E73EDD40A3CCB1AAF9 /* Pods-Sample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDC17F416540D9C350E37452DFB50D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E1A18AEA0F333154E4071CA8D3C19E /* Dialog-umbrella.h in Headers */,
+				DDEDFE1B2C85B61239207D19CB3E1DEE /* Dialog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,13 +221,13 @@
 			productReference = D838DDD9CE76DF5FAD5144694F65F243 /* Pods_Sample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		79F36F89B5B0C9313D524D56D9B9C0A1 /* Dialog */ = {
+		76FFD30195B745E21DE4E645636AC54F /* Dialog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3096981864134DEC6877DB22FE08991 /* Build configuration list for PBXNativeTarget "Dialog" */;
+			buildConfigurationList = 23A376697CECFFAB1E4D2E746FBA2A22 /* Build configuration list for PBXNativeTarget "Dialog" */;
 			buildPhases = (
-				94147C84D98959E28071B74D3E8352DB /* Sources */,
-				C6363A953519D897FCE0A680FEFDF449 /* Frameworks */,
-				8AB72AC268BD64BC016EC9A7624DF437 /* Headers */,
+				07DE419469CCBD94BE5507A9178820FE /* Sources */,
+				1F5E798186E66F69587090238901E16B /* Frameworks */,
+				CFDC17F416540D9C350E37452DFB50D9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -255,27 +259,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79F36F89B5B0C9313D524D56D9B9C0A1 /* Dialog */,
+				76FFD30195B745E21DE4E645636AC54F /* Dialog */,
 				32076E07EC29C5E535F9B1407020585D /* Pods-Sample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		07DE419469CCBD94BE5507A9178820FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E92E3E07D785C2C438A5554D74D35E /* Dialog-dummy.m in Sources */,
+				F10AE572873DC82569E99D69F118AD68 /* Dialog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		865E5F81A883116E5C07AB1777975492 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D58958E1C8C18552C72FDFCD6B38D3DE /* Pods-Sample-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94147C84D98959E28071B74D3E8352DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2934A402B04CB0B0DFF74AE3912CF3A /* Dialog-dummy.m in Sources */,
-				ED9C064923840ABF9E8B2286AAD07AC8 /* Dialog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,46 +289,12 @@
 		113A0D158C150F6FEC3544C055F72FBF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Dialog;
-			target = 79F36F89B5B0C9313D524D56D9B9C0A1 /* Dialog */;
+			target = 76FFD30195B745E21DE4E645636AC54F /* Dialog */;
 			targetProxy = 456E8E6C60C32931B83ACCC624C70049 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		038E744A385C6ED7C977241DEE090978 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6848F99866268426BE8E5EBA073852DD /* Dialog.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Dialog/Dialog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Dialog/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Dialog/Dialog.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Dialog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		234EDA55223DF65D0F6EA069B533552D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AE375A74D27FC41E7BB6C006DFC76A6 /* Pods-Sample.debug.xcconfig */;
@@ -450,6 +420,40 @@
 			};
 			name = Debug;
 		};
+		BD9C51DB5CDD57C34695BF65FF618D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD28EC2158743EF0EE9F38F6C58C904 /* Dialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Dialog/Dialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Dialog/Dialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Dialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -494,9 +498,9 @@
 			};
 			name = Release;
 		};
-		C2D5593B198FE9EAF2707548CECCC860 /* Debug */ = {
+		E4CFE8AE00C579502053A3BCBDFECDDE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6848F99866268426BE8E5EBA073852DD /* Dialog.xcconfig */;
+			baseConfigurationReference = 5AD28EC2158743EF0EE9F38F6C58C904 /* Dialog.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -532,20 +536,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		23A376697CECFFAB1E4D2E746FBA2A22 /* Build configuration list for PBXNativeTarget "Dialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4CFE8AE00C579502053A3BCBDFECDDE /* Debug */,
+				BD9C51DB5CDD57C34695BF65FF618D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
 				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3096981864134DEC6877DB22FE08991 /* Build configuration list for PBXNativeTarget "Dialog" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2D5593B198FE9EAF2707548CECCC860 /* Debug */,
-				038E744A385C6ED7C977241DEE090978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

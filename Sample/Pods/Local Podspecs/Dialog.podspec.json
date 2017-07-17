@@ -16,8 +16,8 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Dialog/**/*.*",
-  "public_header_files": "Dialog/**/*{.h}",
+  "source_files": "Dialog/*.*",
+  "public_header_files": "Dialog/Dialog.h",
   "frameworks": [
     "Foundation",
     "UIKit"
